@@ -1,0 +1,8 @@
+{
+  "country_array": [
+    { "iso": "TR", "currency": "TRY" },
+    { "iso": "GB", "currency": "GBP" },
+    { "iso": "FR", "currency": "EUR" },
+    { "iso": "US", "currency": "USD" }
+  ]
+}
