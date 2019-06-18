@@ -13,12 +13,10 @@ export default {
   },
   data: function() {
     return {
-      selectedCountry: ""
+      selectedCountry: this.propCountry
     };
   },
-  mounted() {
-    this.selectedCountry = this.propCountry;
-  },
+ 
   methods: {
     changeHandler: function() {     
       this.$emit("countryChangeEvent", this.selectedCountry);

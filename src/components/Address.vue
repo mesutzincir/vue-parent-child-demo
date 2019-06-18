@@ -15,7 +15,7 @@
         id="countries"
         name="countries"
         @countryChangeEvent="countryChangeEventHandler"
-        propCountry='TR'
+        v-bind:propCountry="initCountry"
       ></countries>
     </div>
 
@@ -39,7 +39,8 @@ export default {
     return {
       address: "",
       postCode: "",
-      country: ""
+      country: "",
+      initCountry:'GB'
     };
   },
   methods: {
